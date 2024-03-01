@@ -1,5 +1,5 @@
 const { AssetCache } = require("@11ty/eleventy-cache-assets");
-const fs = require("fs").promises; // Node.js File System module for handling file operations
+const fs = require("fs").promises;
 const path = require("path");
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
 
@@ -18,7 +18,7 @@ async function getAllKeys(key = "posts", showCache = true) {
   // make first request and merge results with array
   const request = await requestKeys(key);
   console.log(
-    "Using API blogcategories, retrieving " +
+    `Using API blog${key}, retrieving ` +
       request.pages +
       " pages, " +
       request.total +
