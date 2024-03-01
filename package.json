@@ -1,0 +1,14 @@
+{
+  "name": "wp-dump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Murch",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy-cache-assets": "^2.3.0"
+  }
+}
