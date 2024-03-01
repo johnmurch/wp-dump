@@ -2,7 +2,7 @@
 
 A quick proof of concept leveraging the power of eleventy-cache-assets for fetching, caching and creating front matter files for future data processing
 
-### Shoutout to eleventy-cache-assets
+### Shoutout to eleventy-fetch fka eleventy-cache-assets
 
 Thanks to [https://github.com/11ty/eleventy-fetch](https://github.com/11ty/eleventy-fetch) I can fetch and then cache the data locally and rerun my build scripts without having to redownload the data
 
